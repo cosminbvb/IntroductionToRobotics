@@ -9,9 +9,7 @@ Controlling the brightness of each channel of an RGB LED with the input given by
 - Wires
 
 ## Setup
-![](https://github.com/cosminbvb/IntroductionToRobotics/Assignment1/setup.jpeg)
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment1/setup.jpeg)
 
 ## Demo
-[![](http://img.youtube.com/vi/YZvqX90rD-g/0.jpg)](http://www.youtube.com/watch?v=YZvqX90rD-g "Assignment1 Demo")
-
-https://youtu.be/YZvqX90rD-g
+You can watch a quick demo [here](https://youtu.be/YZvqX90rD-g).

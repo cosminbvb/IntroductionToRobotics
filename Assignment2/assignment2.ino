@@ -72,7 +72,7 @@ void state3() {
   digitalWrite(greenLightPed, HIGH);
   digitalWrite(redLightPed, LOW);
   
-  // buzzer for deaf people
+  // buzzer for blind people
   if (millis() - lastChangedBuzzer >= buzzerIntervalLong) {
     tone(buzzerPin, buzzerTone, buzzerDuration);
     lastChangedBuzzer = millis();

@@ -8,7 +8,7 @@ Controlling the brightness of each channel of an RGB LED with the input given by
 <details>
 
 ## Requirements
-- Arduino UNO
+- Arduino
 - Common Cathode RGB LED
 - 3 potentiometers
 - 2x100 Ohm, 1x220 Ohm resistors (or higher)
@@ -34,7 +34,7 @@ The system has the following states:
 4. State 4 (initiated after state 3 ends): red for cars, blinking green for people and a beeping sound from the buzzer, at a constant interval, faster than the beeping in state 3. This state should last 5 seconds.
 
  ## Requirements
-- Arduino UNO
+- Arduino
 - 2xRed LED (I only had 1xRed so I used 1xRed & 1xRBG)
 - 2xGreen LED
 - 1xYellow LED
@@ -54,5 +54,26 @@ You can watch a quick demo [here](https://www.youtube.com/watch?v=L-AnE9UuTwI).
 
 Serial monitor logs:
 ![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment2/monitor_output.png)
+  
+</details>
+
+### [Assignment 3](https://github.com/cosminbvb/IntroductionToRobotics/tree/main/Assignment3)
+EMF Detector
+
+<details>
+
+## Requirements
+- Arduino
+- 7 Segment Display
+- Buzzer
+- 1x100 Ohm resistor (for the buzzer)
+- 2x330 Ohm resistors (for the display, also doable with only 1 resistor)
+- Wires
+
+## Setup
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment3/setup0.jpeg)
+
+## Demo
+You can watch a quick demo [here](https://youtu.be/nbxJk5SI_a4).
   
 </details>

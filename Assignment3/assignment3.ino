@@ -46,7 +46,7 @@ const int buzzerBaseTone = 21000;
 const int buzzerStep = 2000; // tone difference between 2 intensities
 int buzzerTone;
 unsigned long lastChanged;
-
+const int buzzerThreshold = 2;
 
 // EMF detector section
 const int sampleSize = 300; // how many samples (readings) at a time
@@ -83,8 +83,7 @@ void loop() {
     lastUpdate = millis();
   }
 
-
-  if (value > 2) {
+  if (value > buzzerThreshold) {
     buzzerTone = buzzerBaseTone - value * buzzerStep; 
     tone(buzzerPin, buzzerTone);    
   }
@@ -92,6 +91,6 @@ void loop() {
     noTone(buzzerPin);
   }
 
-  
-  sum = 0;
+  sum = 0; // reset sample sum
+
 }

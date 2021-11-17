@@ -100,13 +100,16 @@ However, as long as the decimal point is blinking, it means that the digit hasn'
 ## Connection diagrams:
 
 shift register - arduino
+  
 ![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/reg-arduino.png)
 
 shift register - display
+  
 ![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/reg-display.png)
   
 display - arduino (used a 330 Ohm resistor for each connection)
-![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/diplay-arduino.png)
+  
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/display-arduino.png)
 
 ## Demo
 You can watch a quick demo [here](https://youtu.be/auXu2F_4Vyw).

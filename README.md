@@ -77,3 +77,38 @@ EMF Detector
 You can watch a quick demo [here](https://youtu.be/nbxJk5SI_a4).
   
 </details>
+
+### [Assignment 4](https://github.com/cosminbvb/IntroductionToRobotics/tree/main/Assignment4)
+Controlling a 4 digit 7-segment display connected with a shift register with the input of a joystick while storing the displayed value in the EEPROM.
+
+<details>
+The decimal point indicates which digit is currently being controlled. When the decimal point is blinking, we can move the joystick to the left / right to choose another digit, or press down on the joystick to lock the digit in.
+However, as long as the decimal point is blinking, it means that the digit hasn't been locked in (selected) and any up / down movement will be ignored. Once a digit has been locked in, we can now move the joystick up / down to choose which number will be displayed on the selected digit or press down on the joystick to unlock the digit. When a digit is locked in, any left / right movement will be ignored (meaning that to choose another digit you will first have to press the button to unlock the current digit). To avoid any confusion, in this context "digit" means one of the 4 7-segment displays.
+  
+## Requirements
+- Arduino
+- 4 digit 7-segment display
+- 74hc595 shift register
+- Joystick
+- 4x330 Ohm resistors (for the display)
+- Wires
+
+## Setup
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/setup0.jpeg)
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/setup1.jpeg)
+
+## Connection diagrams:
+
+shift register - arduino
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/reg-arduino.png)
+
+shift register - display
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/reg-display.png)
+  
+display - arduino (used a 330 Ohm resistor for each connection)
+![](https://github.com/cosminbvb/IntroductionToRobotics/blob/main/Assignment4/diplay-arduino.png)
+
+## Demo
+You can watch a quick demo [here](https://youtu.be/auXu2F_4Vyw).
+  
+</details>
